@@ -388,6 +388,53 @@ label.form-group-label {
     margin-top: 0.5rem;
 } 
 
+.multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, rgb(33, 33, 190), red, orange, white);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+/* socials*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: skyblue;
+    color: white;
+  }
+
+  
+  #socials {
+    text-align: center;
+  }
+
 /*footer*/
 footer {
 	display: -webkit-flex;
@@ -396,6 +443,8 @@ footer {
 	display: -o-flex;
 	display: flex;
 	flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
 	align-items: center;
 	text-align: center;
 	color: #fff;
