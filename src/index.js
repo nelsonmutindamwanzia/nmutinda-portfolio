@@ -4,7 +4,7 @@ function fetchActivity (){
     getActivityButton.style.top = '75%'
     getActivityButton.style.transform = 'translate (-50%,-50%) scale(1.3)'
 
-    fetch ('http://www.boredapi.com/api/activity/')
+    fetch ('https://www.boredapi.com/api/activity/')
     .then (res => res.json())
     .then (data => {
         console.log(data)
