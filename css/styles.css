@@ -218,7 +218,71 @@ ul.about-content {
 	background-size: cover;
 	z-index: -1;
 }
+#apiContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(148,143,221);
+    flex-direction: column;
+    min-width: 750px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    padding: 35px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    cursor:pointer;
+}
+#apiContainer > * {
+    color:red;
+    font-family: "Poppins";
+    font-size: 20px;
 
+}
+.poppins{
+    
+}
+.bold{
+    font-weight: bold;
+}
+.animation {
+    animation: fade 1.75s linear infinite;
+}
+@keyframes fade {
+    25%{
+        opacity : 55%
+    }
+    50%{
+        opacity: 75%;
+    }
+    75%{
+        opacity:100%;
+    }
+}
+.invisible{
+    opacity: 0%;
+}
+.visible{
+    opacity: 100%;
+}
+#getActivityButton{
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)scale(2.3);
+    padding: 15px 75px;
+    border-radius: 5x;
+    border: none;
+    cursor: pointer;
+    font-family: "Poppins",sans-serif;
+}
+h4{
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    color: black;
+    padding-top: 65px;
+}
 
 /*contact area*/
 #contact {
