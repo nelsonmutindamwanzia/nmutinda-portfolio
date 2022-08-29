@@ -4,17 +4,20 @@ function fetchActivity (){
     getActivityButton.style.top = '75%'
     getActivityButton.style.transform = 'translate (-50%,-50%) scale(1.3)'
 
-    fetch ('https://www.boredapi.com/api/activity/')
+    fetch ('http://www.boredapi.com/api/activity/')
     .then (res => res.json())
     .then (data => {
         console.log(data)
         if (data.link){
-            activity.innerHTML = `<span class = "poppins">Activity:</span><a href = ${data.link}><span class = "bold animation">${data.activity}</span></a>`
+            activity.innerHTML = `<span class = "poppins">Activity: </span><a href = ${data.link}><span class = "bold animation">${data.activity}</span></a>`
+            type.innerHTML = `<span class = "poppins">Type: </span><span class = "montserrat">${data.type}</span>`
+            participants.innerHTML = `<span class = "poppins">Participants: </span><span class = "montserrat">${data.participants}</span>`
+            accessibility.innerHTML = `<span class = "poppins">Accessibility: </span><span class = "montserrat">${data.accessibility}</span>`
         } else {
-            activity.innerHTML = `<span class = "poppins">Activity:</span><span class = "montserrat">${data.activity}</span>`
-            type.innerHTML = `<span class = "poppins">Type:</span><span class = "montserrat">${data.type}</span>`
-            participants.innerHTML = `<span class = "poppins">Participants:</span><span class = "montserrat">${data.participants}</span>`
-            accessibility.innerHTML = `<span class = "poppins">Accessibility:</span><span class = "montserrat">${data.accessibility}</span>`
+            activity.innerHTML = `<span class = "poppins">Activity: </span><span class = "montserrat">${data.activity}</span>`
+            type.innerHTML = `<span class = "poppins">Type: </span><span class = "montserrat">${data.type}</span>`
+            participants.innerHTML = `<span class = "poppins">Participants: </span><span class = "montserrat">${data.participants}</span>`
+            accessibility.innerHTML = `<span class = "poppins">Accessibility: </span><span class = "montserrat">${data.accessibility}</span>`
         }
     })
 }
