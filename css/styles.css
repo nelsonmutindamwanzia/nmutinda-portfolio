@@ -149,7 +149,7 @@ ul.about-content {
 }
 .about-left {
 	flex-basis: 40%;
-	background-image: url('/images/about.jpg');
+	background-image: url('https://evgeniamatt.com/wp-content/uploads/2018/07/about.jpg');
 }
 .about-right {
 	flex-basis: 60%;
@@ -178,6 +178,24 @@ ul.about-content {
 	.about-content li {
 		padding: 8px;
 	}
+}
+
+/*skills area*/
+#skills {
+	background: rgb(225, 205, 243);
+}
+
+/*Bored API area*/
+.bored-area .banner-img {
+	background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80');
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index: -1;
 }
 
 
