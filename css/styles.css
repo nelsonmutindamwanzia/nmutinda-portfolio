@@ -262,12 +262,7 @@ ul.about-content {
         opacity:100%;
     }
 }
-.invisible{
-    opacity: 0;
-}
-.visible{
-    opacity: 100%;
-}
+
 #getActivityButton{
     position: static;
     top: 50%;
