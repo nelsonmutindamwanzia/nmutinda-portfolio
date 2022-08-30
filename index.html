@@ -137,18 +137,29 @@
             about this website?</h3>
         <h4>Kindly fill in the form below:</h4>
         <div id = "commentContainer">
+            <p class="lead text-center" id="caster"></p>
             <div class = "comment-input">
                 <form id="commentForm">
-                    Full name: <input id="userName" type="text" name="fname">
-                    <br><br>
-                    Email : <input id="userEmail" type="text" name="email">
-                    <br><br>
-                    <textarea id ="userComment" rows="4" cols="50" name="comment"> Enter comment here...</textarea>
-                    <br><br>
-                    <input type="button" onclick="submitComment()" value="submit">
+                    <div class="form-group">
+                        <label for="userName">Enter your name:</label>
+                        <input type="name" class="form-control" id="userName" placeholder="Jon Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="userEmail">Enter your email address:</label>
+                        <input type="email" class="form-control" id="userEmail" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="userComment">Comment:</label>
+                        <textarea class="form-control" id="userComment" rows="3"placeholder="Tell us what's on your mind ..."></textarea>
+                    </div>
+                    <input type="button" id = "commentButton" class="btn btn-primary" onclick="submitComment()" value="Submit Comment">
                 </form>
-                <h4>Previous Comments:</h4>
-                <p id="data"></p>
+                <br>
+
+                <h4>New Comments:</h4>
+                <div class = "comment-input">
+                    <p id="data"></p>
+                </div>
             </div>
         </div>
 
@@ -201,12 +212,8 @@
                 </div>
             </div>
         </div>
-
     </section>
-
     <script type="text/javascript" src="src/index.js"></script>
-
-    
     <footer>
         <div id="socials">
         <p>Find me on social media using the following links</p>

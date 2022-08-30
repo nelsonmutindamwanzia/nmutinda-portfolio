@@ -303,6 +303,28 @@ h4{
 #comments > h3 {
     text-align: center;
 }
+.comment-input {
+    margin: 0;
+    font-family: 'Poppins', serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    padding: 30px;
+    padding-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    background-color: #f2f2f2;
+}
+.comment-input > p{
+    text-align: justify;
+}
+#commentButton {
+    display: block;
+    width: 100%;
+}
 
 /*contact area*/
 #contact {
@@ -479,10 +501,15 @@ label.form-group-label {
     background-clip: text;
     color: transparent;
 }
-
+.multicolortext2 {
+    background-image: linear-gradient(to left, magenta, white);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 
 /* socials*/
-
 .fa {
     padding: 20px;
     font-size: 30px;
