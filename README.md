@@ -18,6 +18,9 @@ To run this project, one must have either of the following;
 ### Known Bugs
 1. When running the Live Github Pages link while using **Mozilla Firefox browser**, the progress bars in the Skills section appear in a disorderly manner. The user is therefore advised to **use Google Chrome browser instead** for the best user experience.
 2. After clicking on the "**Get Activity**" button under the Bored API section, the website is marked as "**not secure**" on Google Chrome browser. Any help to fix this issue will highly be appreciated.
+### Future Updates
+1. Add functionality to the **Comment** and **Message** forms.
+2. Add functionality to the **New Comments** section on the contact form to enable the comment changes to persist.
 ### Copyright and License (MIT)
 #### Copyright <2022>
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "WhyMutinda?"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
