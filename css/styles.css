@@ -157,11 +157,12 @@ ul.about-content {
 	background-position: center;
 }
 .about-left {
-	flex-basis: 40%;
+	flex-basis: 30%;
 	background-image: url('https://evgeniamatt.com/wp-content/uploads/2018/07/about.jpg');
 }
 .about-right {
-	flex-basis: 60%;
+	flex-basis: 70%;
+    text-align: justify;
 }
 .about-area p {
 	max-width: 800px;
@@ -423,15 +424,11 @@ ul.contact-content {
     opacity: 0.7;
   }
   
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
+
   .fa-facebook {
     background: #3B5998;
     color: white;
   }
-  
-  /* Twitter */
   .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -440,8 +437,11 @@ ul.contact-content {
     background: skyblue;
     color: white;
   }
+  .fa-github {
+    background: red;
+    color: whitesmoke;
+  }
 
-  
   #socials {
     text-align: center;
   }
