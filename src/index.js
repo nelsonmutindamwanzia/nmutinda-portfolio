@@ -39,7 +39,7 @@ function eventCaster(message) {
     caster.innerHTML = message;
 }
 
-document.getElementById('comments').addEventListener('mouseover', () => eventCaster ('<span class ="multicolortext2">(You\'ve triggered the Mouseover Event)</span>'))
+document.getElementById('commentForm').addEventListener('mouseover', () => eventCaster ('<span class ="multicolortext2">(You\'ve triggered the Mouseover Event)</span>'))
 
 // Used the following event listeners:
 // 1. click
