@@ -13,16 +13,14 @@
 </head>
 <body>
     <header>
-        <h2><a href="#">WhyMutinda?</a></h2>
+        <h2><a href="#"><img class="logo" src="images/logo-rbg.png"></a></h2>
         <nav>
-            <a href="#">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href ="#boredAPI">Bored API</a>
             <a href ="#comments">Comment Section</a>
             <a href="#contact">Contacts</a>
         </nav>
-
     </header>
     <section class="banner-area">
         <div class="banner-img"></div>
@@ -181,37 +179,27 @@
                 <i class="fa fa-envelope"></i>
                 <p>nmutinda02@gmail.com<br>
             </li>
-        </ul><br>
-        <h3 class="section-title">Contact Form</h3>
-        <div id="container">
-            <div class="contact-me">
-            <div id="contact">
-                <form id="contact-form">
+        </ul><br><br>
+        <h3 class="section-title">Would you like to leave me a message?</h3>
+        <h4>Kindly fill in the form below:</h4>
+        <div id = "commentContainer">
+            <p class="lead text-center" id="caster"></p>
+            <div class = "message-input">
+                <form id="messageForm">
                     <div class="form-group">
-                        <label for="Name" class="form-group-label">Your name</label>
-                        <div class="form-input">
-                            <input type="text" id="Name" name="Name" class="form-control" required>
-                        </div>
+                        <label for="userNameM">Enter your name:</label>
+                        <input type="name" class="form-control" id="userNameM" placeholder="Billy Jean">
                     </div>
                     <div class="form-group">
-                        <label for="Email" class="form-group-label">Your email address</label>
-                        <div class="form-input">
-                            <input type="email" id="Email" name="Email" class="form-control" required>
-                        </div>
+                        <label for="userEmailM">Enter your email address:</label>
+                        <input type="email" class="form-control" id="userEmailM" placeholder="name@example.com">
                     </div>
                     <div class="form-group">
-                        <label for="Message" class="form-group-label">Your message</label>
-                        <div class="form-input">
-                            <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
-                        </div>
+                        <label for="userMessage">Message:</label>
+                        <textarea class="form-control" id="userMessage" rows="6"placeholder="Tell us the nature of your message ..."></textarea>
                     </div>
-                    <div class="form-group">
-                        <button type="submit" id="button" class="button">Send Message</button>
-                    </div>
+                    <input type="button" id = "messageButton" class="btn btn-primary" onclick="submitMessage()" value="Submit Message">
                 </form>
-                </div>
-            </div>
-        </div>
     </section>
     <script type="text/javascript" src="src/index.js"></script>
     <footer>
