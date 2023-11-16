@@ -156,12 +156,9 @@ ul.about-content {
 	background-size: cover;
 	background-position: center;
 }
-.about-left {
-	flex-basis: 30%;
-	background-image: url('https://evgeniamatt.com/wp-content/uploads/2018/07/about.jpg');
-}
+
 .about-right {
-	flex-basis: 70%;
+	flex-basis: 100%;
     text-align: justify;
 }
 .about-area p {
