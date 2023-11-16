@@ -159,11 +159,10 @@ ul.about-content {
 }
 
 .about-right {
-  flex-basis: 100%;
-  max-width: 800px; /* Adjust the max-width as needed */
-  margin: 0 auto; /* Center the about-right */
-  text-align: center;
-  line-height: 30px;
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .about-area p {
