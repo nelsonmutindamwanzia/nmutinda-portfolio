@@ -159,7 +159,7 @@ ul.about-content {
 
 .about-right {
 	flex-basis: 100%;
-    text-align: justify;
+   	text-align: justify;
 }
 .about-area p {
 	max-width: 800px;
@@ -178,7 +178,7 @@ ul.about-content {
 }
 
 @media (max-width: 1000px) {
-	.about-left, .about-right {
+	.about-right {
 		flex-basis: 100%;
 	}
 	.about-content li {
